@@ -1,0 +1,33 @@
+1622454425922|14|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622482192479|8|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622482532844|14|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622484793398|33|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622484993361|17|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622485133729|18|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622485180027|10|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622529251309|22|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622529276383|9|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622529660214|12|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622529660242|15|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622529752786|10|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622529752829|22|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622529824962|7|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622529824986|5|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622529848678|17|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622529848705|6|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622529913654|10|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622529913680|3|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622530253350|7|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622530253375|5|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622544717929|19|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622544955226|7|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622544955251|4|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|update PERSON set pname = ? where pno = ?|update PERSON set pname = '千寻006' where pno = 1001
+1622544955257|3|statement|connection 3|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622559664101|18|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622559908029|8|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622560031901|7|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON t|select * from PERSON t
+1622560031949|13|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|update PERSON set pname = ? where pno = ?|update PERSON set pname = '千寻007' where pno = 1001
+1622560173899|13|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622560173954|15|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622560973287|13|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622560973332|12|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002

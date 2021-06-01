@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace=绑定一个对应的Dao/mapper接口-->
+<mapper namespace="com.feiyu.dao.PersonDao">
+
+    <!--MyBatis二级缓存-->
+    <!--mybatis默认的二级缓存-->
+    <!-- 配置使用二级缓存
+       eviction: 缓存的回收策略，默认是LRU
+           LRU - 最近最少使用的：移除最长时间不被使用的对象
+           FIFO - 先进先出策略：按对象进入缓存的顺序来移除它们
+           SOFT - 软引用：移除基于垃圾回收器状态和软引用规则的对象
+           WEAK - 弱引用：更积极地移除基于垃圾收集器状态和弱引用规则的对象
+       flushInterval：缓存的刷新间隔，默认是不刷新的
+       readOnly：缓存的只读设置，默认是false
+           true:只读    mybatis认为只会对缓存中的数据进行读取操作，不会有修改操作为了加快数据的读取，直接将缓存中对象的引用交给用户
+           false：不只读    mybatis认为不仅会有读取数据，还会有修改操作。会通过序列化和反序列化的技术克隆一份新的数据交给用户
+       size：缓存中的对象个数
+       type：自定义缓存或者整合第三方缓存时使用
+             class MyCache implements Cache{}
+     -->
+    <!--<cache eviction="FIFO" size="512" flushInterval="60000" readOnly="false"/>-->
+    <!--使用自定义缓存ehcache-->
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
+
+    <!--select查询语句-->
+    <select id="selectPersons" resultType="person">
+        select * from PERSON t
+    </select>
+
+    <update id="updatePerson" parameterType="person">
+        update PERSON set pname = #{pname} where pno = #{pno}
+    </update>
+
+    <select id="selectPerson" parameterType="int" resultType="person" useCache="true" flushCache="true">
+        select * from PERSON where pno = #{pno}
+    </select>
+</mapper>

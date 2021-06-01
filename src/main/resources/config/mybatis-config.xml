@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <!--开启表与实例的驼峰匹配-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--控制台日志-->
+        <setting name="logImpl" value="LOG4J"/>
+        <!--这个配置使全局的映射器(二级缓存)启用或禁用缓存-->
+        <setting name="cacheEnabled" value="true" />
+    </settings>
+
+    <!---->
+    <typeAliases>
+        <package name="com.feiyu.pojo"/>
+    </typeAliases>
+
+<!--    <environments default="datasource1">
+        <environment id="datasource1">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+        <environment id="datasource2">
+            <transactionManager type="MANAGED">
+                <property name="closeConnection" value="false"/>
+            </transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        &lt;!&ndash;类似于class写法的简写，要求接口名和映射文件在同一包下且同名&ndash;&gt;
+        <package name="com.feiyu.dao"/>
+    </mappers>-->
+</configuration>
