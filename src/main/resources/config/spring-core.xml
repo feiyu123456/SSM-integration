@@ -15,7 +15,7 @@
 
     <context:component-scan base-package="com.feiyu.service"/>
 
-    <bean id="PersonServiceImpl" class="com.feiyu.service.PersonServiceImpl">
+    <bean id="PersonService" class="com.feiyu.service.PersonServiceImpl">
         <!--巨坑,仔细回味！-->
         <property name="personDao" ref="personDao"/>
     </bean>

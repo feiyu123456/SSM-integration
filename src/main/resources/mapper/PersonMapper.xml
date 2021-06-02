@@ -21,9 +21,9 @@
        type：自定义缓存或者整合第三方缓存时使用
              class MyCache implements Cache{}
      -->
-    <!--<cache eviction="FIFO" size="512" flushInterval="60000" readOnly="false"/>-->
+    <cache eviction="FIFO" size="512" flushInterval="60000" readOnly="true"/>
     <!--使用自定义缓存ehcache-->
-    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
+   <!-- <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>-->
 
     <!--select查询语句-->
     <select id="selectPersons" resultType="person">
@@ -34,7 +34,15 @@
         update PERSON set pname = #{pname} where pno = #{pno}
     </update>
 
-    <select id="selectPerson" parameterType="int" resultType="person" useCache="true" flushCache="true">
+    <select id="selectPerson" parameterType="int" resultType="person" useCache="true" flushCache="false">
         select * from PERSON where pno = #{pno}
     </select>
+
+    <delete id="deletePerson" parameterType="int">
+        delete from PERSON where pno = #{pno}
+    </delete>
+
+    <insert id="insertPerson" parameterType="person">
+        insert into PERSON(pno, pname, address, email) values(#{pno}, #{pname}, #{address}, #{email})
+    </insert>
 </mapper>

@@ -25,7 +25,6 @@ public class PersonController{
      *
      */
     @Autowired
-    @Qualifier("PersonServiceImpl")
     private PersonService personService;
 
     @RequestMapping("/toIndex")
@@ -61,17 +60,17 @@ public class PersonController{
     @RequestMapping("/persons2")
     public String getPersons2() {
 
-        List<Person> personList = personService.selectPersons();
-        List<Person> personList2 = personService.selectPersons();
+        Person person = personService.selectPerson(1001);
+        Person person2 = personService.selectPerson(1001);
 
         System.out.println("==================================");
 
-        System.out.println(personList);
-        String jsons = JSON.toJSONString(personList);
+        System.out.println(person);
+        String jsons = JSON.toJSONString(person);
 
-        personService.updatePerson(new Person(1001, "千寻006", null, null));
+        //personService.updatePerson(new Person(1001, "千寻006", null, null));
 
-        System.out.println(personList2);
+        System.out.println(person2);
         return jsons;
     }
 }

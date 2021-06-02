@@ -1,0 +1,244 @@
+2021-06-01 14:42:28  [ main:0 ] - [ WARN ]  oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2021-06-01 14:42:31  [ main:2403 ] - [ INFO ]  {dataSource-1} inited
+2021-06-01 14:42:32  [ main:3544 ] - [ INFO ]  {dataSource-2} inited
+2021-06-01 14:42:32  [ main:3670 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-01 14:42:32  [ main:3792 ] - [ DEBUG ]  Creating a new SqlSession
+2021-06-01 14:42:32  [ main:3795 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f7b97da] was not registered for synchronization because synchronization is not active
+2021-06-01 14:42:32  [ main:3800 ] - [ DEBUG ]  JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@2371aaca] will not be managed by Spring
+2021-06-01 14:42:32  [ main:3815 ] - [ DEBUG ]  ==>  Preparing: select * from PERSON t 
+2021-06-01 14:42:32  [ main:3859 ] - [ DEBUG ]  ==> Parameters: 
+2021-06-01 14:42:32  [ main:3887 ] - [ DEBUG ]  <==      Total: 9
+2021-06-01 14:42:32  [ main:3888 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f7b97da]
+2021-06-01 14:42:32  [ main:3888 ] - [ DEBUG ]  Creating a new SqlSession
+2021-06-01 14:42:32  [ main:3888 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c2b6087] was not registered for synchronization because synchronization is not active
+2021-06-01 14:42:32  [ main:3888 ] - [ DEBUG ]  JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@3fffff43] will not be managed by Spring
+2021-06-01 14:42:32  [ main:3889 ] - [ DEBUG ]  ==>  Preparing: select * from PERSON t 
+2021-06-01 14:42:32  [ main:3889 ] - [ DEBUG ]  ==> Parameters: 
+2021-06-01 14:42:32  [ main:3914 ] - [ DEBUG ]  <==      Total: 9
+2021-06-01 14:42:32  [ main:3914 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c2b6087]
+2021-06-01 14:43:41  [ main:0 ] - [ WARN ]  oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2021-06-01 14:43:43  [ main:2449 ] - [ INFO ]  {dataSource-1} inited
+2021-06-01 14:43:44  [ main:3592 ] - [ INFO ]  {dataSource-2} inited
+2021-06-01 14:43:44  [ main:3732 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-06-01 14:43:44  [ main:3842 ] - [ DEBUG ]  Creating a new SqlSession
+2021-06-01 14:43:44  [ main:3846 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f7b97da] was not registered for synchronization because synchronization is not active
+2021-06-01 14:43:44  [ main:3851 ] - [ DEBUG ]  JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@2371aaca] will not be managed by Spring
+2021-06-01 14:43:44  [ main:3855 ] - [ DEBUG ]  ==>  Preparing: select * from PERSON t 
+2021-06-01 14:43:44  [ main:3897 ] - [ DEBUG ]  ==> Parameters: 
+2021-06-01 14:43:44  [ main:3921 ] - [ DEBUG ]  <==      Total: 9
+2021-06-01 14:43:44  [ main:3922 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f7b97da]
+2021-06-01 14:43:44  [ main:3922 ] - [ DEBUG ]  Creating a new SqlSession
+2021-06-01 14:43:44  [ main:3922 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c2b6087] was not registered for synchronization because synchronization is not active
+2021-06-01 14:43:44  [ main:3923 ] - [ DEBUG ]  JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@3fffff43] will not be managed by Spring
+2021-06-01 14:43:44  [ main:3923 ] - [ DEBUG ]  ==>  Preparing: select * from PERSON t 
+2021-06-01 14:43:44  [ main:3923 ] - [ DEBUG ]  ==> Parameters: 
+2021-06-01 14:43:44  [ main:3931 ] - [ DEBUG ]  <==      Total: 9
+2021-06-01 14:43:44  [ main:3931 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c2b6087]
+[2021-06-01 14:44:04][com.alibaba.druid.pool.DruidAbstractDataSource]oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[2021-06-01 14:44:07][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[2021-06-01 14:44:08][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} inited
+[2021-06-01 14:44:08][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2021-06-01 14:44:08][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 14:44:08][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@aafcffa] was not registered for synchronization because synchronization is not active
+[2021-06-01 14:44:08][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@2e9fda69] will not be managed by Spring
+[2021-06-01 14:44:08][com.feiyu.dao.PersonDao.selectPersons]==>  Preparing: select * from PERSON t 
+[2021-06-01 14:44:08][com.feiyu.dao.PersonDao.selectPersons]==> Parameters: 
+[2021-06-01 14:44:08][com.feiyu.dao.PersonDao.selectPersons]<==      Total: 9
+[2021-06-01 14:44:08][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@aafcffa]
+[2021-06-01 14:44:08][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 14:44:08][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b672daa] was not registered for synchronization because synchronization is not active
+[2021-06-01 14:44:08][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@ea9b7c6] will not be managed by Spring
+[2021-06-01 14:44:08][com.feiyu.dao.PersonDao.selectPersons]==>  Preparing: select * from PERSON t 
+[2021-06-01 14:44:08][com.feiyu.dao.PersonDao.selectPersons]==> Parameters: 
+[2021-06-01 14:44:08][com.feiyu.dao.PersonDao.selectPersons]<==      Total: 9
+[2021-06-01 14:44:08][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b672daa]
+[2021-06-01 14:45:09][com.alibaba.druid.pool.DruidAbstractDataSource]oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[2021-06-01 14:45:12][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[2021-06-01 14:45:13][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} inited
+[2021-06-01 14:45:13][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2021-06-01 14:45:13][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 14:45:13][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19058533] was not registered for synchronization because synchronization is not active
+[2021-06-01 14:45:13][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@6d2dc9d2] will not be managed by Spring
+[2021-06-01 14:45:13][com.feiyu.dao.PersonDao.selectPersons]==>  Preparing: select * from PERSON t 
+[2021-06-01 14:45:13][com.feiyu.dao.PersonDao.selectPersons]==> Parameters: 
+[2021-06-01 14:45:13][com.feiyu.dao.PersonDao.selectPersons]<==      Total: 9
+[2021-06-01 14:45:13][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19058533]
+[2021-06-01 14:45:13][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 14:45:13][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24b4d544] was not registered for synchronization because synchronization is not active
+[2021-06-01 14:45:13][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@27a2a089] will not be managed by Spring
+[2021-06-01 14:45:13][com.feiyu.dao.PersonDao.selectPersons]==>  Preparing: select * from PERSON t 
+[2021-06-01 14:45:13][com.feiyu.dao.PersonDao.selectPersons]==> Parameters: 
+[2021-06-01 14:45:13][com.feiyu.dao.PersonDao.selectPersons]<==      Total: 9
+[2021-06-01 14:45:13][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24b4d544]
+[2021-06-01 14:50:49][com.alibaba.druid.pool.DruidAbstractDataSource]oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[2021-06-01 14:50:51][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[2021-06-01 14:50:52][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} inited
+[2021-06-01 14:50:53][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2021-06-01 14:50:53][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 14:50:53][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19058533] was not registered for synchronization because synchronization is not active
+[2021-06-01 14:50:53][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@6d2dc9d2] will not be managed by Spring
+[2021-06-01 14:50:53][com.feiyu.dao.PersonDao.selectPersons]==>  Preparing: select * from PERSON t 
+[2021-06-01 14:50:53][com.feiyu.dao.PersonDao.selectPersons]==> Parameters: 
+[2021-06-01 14:50:53][com.feiyu.dao.PersonDao.selectPersons]<==      Total: 9
+[2021-06-01 14:50:53][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19058533]
+[2021-06-01 14:50:53][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 14:50:53][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24b4d544] was not registered for synchronization because synchronization is not active
+[2021-06-01 14:50:53][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@27a2a089] will not be managed by Spring
+[2021-06-01 14:50:53][com.feiyu.dao.PersonDao.selectPersons]==>  Preparing: select * from PERSON t 
+[2021-06-01 14:50:53][com.feiyu.dao.PersonDao.selectPersons]==> Parameters: 
+[2021-06-01 14:50:53][com.feiyu.dao.PersonDao.selectPersons]<==      Total: 9
+[2021-06-01 14:50:53][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24b4d544]
+[2021-06-01 14:58:51][com.alibaba.druid.pool.DruidAbstractDataSource]oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[2021-06-01 14:58:53][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[2021-06-01 14:58:54][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} inited
+[2021-06-01 14:58:54][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2021-06-01 14:58:54][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} closing ...
+[2021-06-01 14:58:54][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} closed
+[2021-06-01 14:58:54][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closing ...
+[2021-06-01 14:58:54][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[2021-06-01 18:51:19][com.alibaba.druid.pool.DruidAbstractDataSource]oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[2021-06-01 18:51:22][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[2021-06-01 18:51:23][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} inited
+[2021-06-01 18:51:23][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2021-06-01 18:51:23][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} closing ...
+[2021-06-01 18:51:23][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} closed
+[2021-06-01 18:51:23][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closing ...
+[2021-06-01 18:51:23][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[2021-06-01 18:51:54][com.alibaba.druid.pool.DruidAbstractDataSource]oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[2021-06-01 18:51:56][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[2021-06-01 18:51:57][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} inited
+[2021-06-01 18:51:57][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2021-06-01 18:51:57][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 18:51:57][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b329bbd] was not registered for synchronization because synchronization is not active
+[2021-06-01 18:51:57][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.0
+[2021-06-01 18:51:57][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@173f73e7] will not be managed by Spring
+[2021-06-01 18:51:57][com.feiyu.dao.PersonDao.selectPersons]==>  Preparing: select * from PERSON t 
+[2021-06-01 18:51:57][com.feiyu.dao.PersonDao.selectPersons]==> Parameters: 
+[2021-06-01 18:51:57][com.feiyu.dao.PersonDao.selectPersons]<==      Total: 9
+[2021-06-01 18:51:57][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b329bbd]
+[2021-06-01 18:51:57][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 18:51:57][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bebb74f] was not registered for synchronization because synchronization is not active
+[2021-06-01 18:51:57][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.5
+[2021-06-01 18:51:57][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bebb74f]
+[2021-06-01 18:55:51][com.alibaba.druid.pool.DruidAbstractDataSource]oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[2021-06-01 18:55:54][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[2021-06-01 18:55:54][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} inited
+[2021-06-01 18:55:55][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2021-06-01 18:55:55][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 18:55:55][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b329bbd] was not registered for synchronization because synchronization is not active
+[2021-06-01 18:55:55][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.0
+[2021-06-01 18:55:55][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@173f73e7] will not be managed by Spring
+[2021-06-01 18:55:55][com.feiyu.dao.PersonDao.selectPerson]==>  Preparing: select * from PERSON where pno = ? 
+[2021-06-01 18:55:55][com.feiyu.dao.PersonDao.selectPerson]==> Parameters: 1001(Integer)
+[2021-06-01 18:55:55][com.feiyu.dao.PersonDao.selectPerson]<==      Total: 1
+[2021-06-01 18:55:55][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b329bbd]
+[2021-06-01 18:55:55][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 18:55:55][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f288c14] was not registered for synchronization because synchronization is not active
+[2021-06-01 18:55:55][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@6794ac0b] will not be managed by Spring
+[2021-06-01 18:55:55][com.feiyu.dao.PersonDao.updatePerson]==>  Preparing: update PERSON set pname = ? where pno = ? 
+[2021-06-01 18:55:55][com.feiyu.dao.PersonDao.updatePerson]==> Parameters: 千寻006(String), 1001(Integer)
+[2021-06-01 18:55:55][com.feiyu.dao.PersonDao.updatePerson]<==    Updates: 1
+[2021-06-01 18:55:55][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f288c14]
+[2021-06-01 18:55:55][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 18:55:55][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a953cf] was not registered for synchronization because synchronization is not active
+[2021-06-01 18:55:55][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.0
+[2021-06-01 18:55:55][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@154bd49b] will not be managed by Spring
+[2021-06-01 18:55:55][com.feiyu.dao.PersonDao.selectPerson]==>  Preparing: select * from PERSON where pno = ? 
+[2021-06-01 18:55:55][com.feiyu.dao.PersonDao.selectPerson]==> Parameters: 1001(Integer)
+[2021-06-01 18:55:55][com.feiyu.dao.PersonDao.selectPerson]<==      Total: 1
+[2021-06-01 18:55:55][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a953cf]
+[2021-06-01 23:00:59][com.alibaba.druid.pool.DruidAbstractDataSource]oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[2021-06-01 23:01:02][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[2021-06-01 23:01:03][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} inited
+[2021-06-01 23:01:03][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2021-06-01 23:01:04][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 23:01:04][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b329bbd] was not registered for synchronization because synchronization is not active
+[2021-06-01 23:01:04][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.0
+[2021-06-01 23:01:04][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@173f73e7] will not be managed by Spring
+[2021-06-01 23:01:04][com.feiyu.dao.PersonDao.selectPersons]==>  Preparing: select * from PERSON t 
+[2021-06-01 23:01:04][com.feiyu.dao.PersonDao.selectPersons]==> Parameters: 
+[2021-06-01 23:01:04][com.feiyu.dao.PersonDao.selectPersons]<==      Total: 9
+[2021-06-01 23:01:04][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b329bbd]
+[2021-06-01 23:01:04][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 23:01:04][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bebb74f] was not registered for synchronization because synchronization is not active
+[2021-06-01 23:01:04][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.5
+[2021-06-01 23:01:04][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bebb74f]
+[2021-06-01 23:05:03][com.alibaba.druid.pool.DruidAbstractDataSource]oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[2021-06-01 23:05:05][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[2021-06-01 23:05:07][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} inited
+[2021-06-01 23:05:07][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2021-06-01 23:05:07][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 23:05:07][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34819867] was not registered for synchronization because synchronization is not active
+[2021-06-01 23:05:07][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.0
+[2021-06-01 23:05:07][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@43a51d00] will not be managed by Spring
+[2021-06-01 23:05:07][com.feiyu.dao.PersonDao.selectPersons]==>  Preparing: select * from PERSON t 
+[2021-06-01 23:05:08][com.feiyu.dao.PersonDao.selectPersons]==> Parameters: 
+[2021-06-01 23:05:08][com.feiyu.dao.PersonDao.selectPersons]<==      Total: 9
+[2021-06-01 23:05:08][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34819867]
+[2021-06-01 23:05:08][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 23:05:08][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58cf8f94] was not registered for synchronization because synchronization is not active
+[2021-06-01 23:05:08][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.5
+[2021-06-01 23:05:08][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58cf8f94]
+[2021-06-01 23:07:07][com.alibaba.druid.pool.DruidAbstractDataSource]oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[2021-06-01 23:07:10][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[2021-06-01 23:07:11][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} inited
+[2021-06-01 23:07:11][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2021-06-01 23:07:11][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 23:07:11][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b329bbd] was not registered for synchronization because synchronization is not active
+[2021-06-01 23:07:11][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.0
+[2021-06-01 23:07:11][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@173f73e7] will not be managed by Spring
+[2021-06-01 23:07:11][com.feiyu.dao.PersonDao.selectPersons]==>  Preparing: select * from PERSON t 
+[2021-06-01 23:07:11][com.feiyu.dao.PersonDao.selectPersons]==> Parameters: 
+[2021-06-01 23:07:11][com.feiyu.dao.PersonDao.selectPersons]<==      Total: 9
+[2021-06-01 23:07:11][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b329bbd]
+[2021-06-01 23:07:11][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 23:07:11][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bebb74f] was not registered for synchronization because synchronization is not active
+[2021-06-01 23:07:11][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.5
+[2021-06-01 23:07:11][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bebb74f]
+[2021-06-01 23:07:11][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 23:07:11][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3872bc37] was not registered for synchronization because synchronization is not active
+[2021-06-01 23:07:11][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@1a87b51] will not be managed by Spring
+[2021-06-01 23:07:11][com.feiyu.dao.PersonDao.updatePerson]==>  Preparing: update PERSON set pname = ? where pno = ? 
+[2021-06-01 23:07:11][com.feiyu.dao.PersonDao.updatePerson]==> Parameters: 千寻007(String), 1001(Integer)
+[2021-06-01 23:07:11][com.feiyu.dao.PersonDao.updatePerson]<==    Updates: 1
+[2021-06-01 23:07:11][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3872bc37]
+[2021-06-01 23:09:29][com.alibaba.druid.pool.DruidAbstractDataSource]oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[2021-06-01 23:09:32][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[2021-06-01 23:09:33][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} inited
+[2021-06-01 23:09:33][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2021-06-01 23:09:33][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 23:09:33][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@446c3920] was not registered for synchronization because synchronization is not active
+[2021-06-01 23:09:33][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.0
+[2021-06-01 23:09:33][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@46d567cb] will not be managed by Spring
+[2021-06-01 23:09:33][com.feiyu.dao.PersonDao.selectPerson]==>  Preparing: select * from PERSON where pno = ? 
+[2021-06-01 23:09:33][com.feiyu.dao.PersonDao.selectPerson]==> Parameters: 1001(Integer)
+[2021-06-01 23:09:33][com.feiyu.dao.PersonDao.selectPerson]<==      Total: 1
+[2021-06-01 23:09:33][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@446c3920]
+[2021-06-01 23:09:33][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 23:09:33][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37b57b54] was not registered for synchronization because synchronization is not active
+[2021-06-01 23:09:33][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.0
+[2021-06-01 23:09:33][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@5c1f6d57] will not be managed by Spring
+[2021-06-01 23:09:33][com.feiyu.dao.PersonDao.selectPerson]==>  Preparing: select * from PERSON where pno = ? 
+[2021-06-01 23:09:33][com.feiyu.dao.PersonDao.selectPerson]==> Parameters: 1002(Integer)
+[2021-06-01 23:09:33][com.feiyu.dao.PersonDao.selectPerson]<==      Total: 1
+[2021-06-01 23:09:33][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37b57b54]
+[2021-06-01 23:22:49][com.alibaba.druid.pool.DruidAbstractDataSource]oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[2021-06-01 23:22:51][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[2021-06-01 23:22:52][com.alibaba.druid.pool.DruidDataSource]{dataSource-2} inited
+[2021-06-01 23:22:52][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2021-06-01 23:22:53][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 23:22:53][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b051a5c] was not registered for synchronization because synchronization is not active
+[2021-06-01 23:22:53][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.0
+[2021-06-01 23:22:53][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@5ff2b8ca] will not be managed by Spring
+[2021-06-01 23:22:53][com.feiyu.dao.PersonDao.selectPerson]==>  Preparing: select * from PERSON where pno = ? 
+[2021-06-01 23:22:53][com.feiyu.dao.PersonDao.selectPerson]==> Parameters: 1001(Integer)
+[2021-06-01 23:22:53][com.feiyu.dao.PersonDao.selectPerson]<==      Total: 1
+[2021-06-01 23:22:53][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b051a5c]
+[2021-06-01 23:22:53][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[2021-06-01 23:22:53][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a2ef072] was not registered for synchronization because synchronization is not active
+[2021-06-01 23:22:53][com.feiyu.dao.PersonDao]Cache Hit Ratio [com.feiyu.dao.PersonDao]: 0.0
+[2021-06-01 23:22:53][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.p6spy.engine.wrapper.ConnectionWrapper@704641e3] will not be managed by Spring
+[2021-06-01 23:22:53][com.feiyu.dao.PersonDao.selectPerson]==>  Preparing: select * from PERSON where pno = ? 
+[2021-06-01 23:22:53][com.feiyu.dao.PersonDao.selectPerson]==> Parameters: 1002(Integer)
+[2021-06-01 23:22:53][com.feiyu.dao.PersonDao.selectPerson]<==      Total: 1
+[2021-06-01 23:22:53][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a2ef072]

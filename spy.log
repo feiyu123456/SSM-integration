@@ -31,3 +31,69 @@
 1622560173954|15|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
 1622560973287|13|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
 1622560973332|12|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622610829427|7|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622610829467|11|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622611026980|7|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622611027006|2|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622611070371|6|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622611070398|2|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622611157304|9|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622611157327|2|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622611770344|47|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622612624950|7|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622612624981|7|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622612655066|14|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622612716190|7|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622612716211|4|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622612741117|7|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622613308587|6|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622613308606|2|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622624318813|7|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622624318845|12|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622624775597|8|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622624843437|5|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|update PERSON set pname = ? where pno = ?|update PERSON set pname = '千寻007' where pno = 1001
+1622624847574|3|statement|connection 3|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622625126541|16|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622625404898|6|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622625404929|9|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|update PERSON set pname = ? where pno = ?|update PERSON set pname = '千寻007' where pno = 1001
+1622625404933|2|statement|connection 3|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1001
+1622627581679|24|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622627581767|22|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|update PERSON set pname = ? where pno = ?|update PERSON set pname = '千寻007' where pno = 1001
+1622627581784|11|statement|connection 3|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622627657613|10|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622627685315|5|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622627685337|5|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1003
+1622627783977|28|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622627810997|21|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|select * from PERSON where pno = ?|select * from PERSON where pno = 1002
+1622634029391|8|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1001
+1622634029397|1|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|inserts into PERSON(pno, pname, address, email) values(?, ?, ?, ?)|inserts into PERSON(pno, pname, address, email) values(1001, '千寻88', '朝阳区nb', 'dddddddddd')
+1622634029438|4|rollback|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl||
+1622634105961|3|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1001
+1622634105967|3|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|insert into PERSON(pno, pname, address, email) values(?, ?, ?, ?)|insert into PERSON(pno, pname, address, email) values(1001, '千寻88', '朝阳区nb', 'dddddddddd')
+1622634105972|2|commit|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl||
+1622634214121|8|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1001
+1622634214125|1|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|inserts into PERSON(pno, pname, address, email) values(?, ?, ?, ?)|inserts into PERSON(pno, pname, address, email) values(1001, '千寻88', '朝阳区nb', 'dddddddddd')
+1622634258694|4|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1001
+1622634258702|4|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|insert into PERSON(pno, pname, address, email) values(?, ?, ?, ?)|insert into PERSON(pno, pname, address, email) values(1001, '千寻88', '朝阳区nb', 'dddddddddd')
+1622634258707|2|commit|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl||
+1622636166509|5|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1001
+1622636166514|1|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|inserts into PERSON(pno, pname, address, email) values(?, ?, ?, ?)|inserts into PERSON(pno, pname, address, email) values(1001, '千寻88', '朝阳区nb', 'dddddddddd')
+1622636386293|13|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1001
+1622636386313|7|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|inserts into PERSON(pno, pname, address, email) values(?, ?, ?, ?)|inserts into PERSON(pno, pname, address, email) values(1001, '千寻88', '朝阳区nb', 'dddddddddd')
+1622636834066|10|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1001
+1622636834071|2|statement|connection 2|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|inserts into PERSON(pno, pname, address, email) values(?, ?, ?, ?)|inserts into PERSON(pno, pname, address, email) values(1001, '千寻88', '朝阳区nb', 'dddddddddd')
+1622638215693|5|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1001
+1622638668232|4|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1011
+1622638668238|1|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|inserts into PERSON(pno, pname, address, email) values(?, ?, ?, ?)|inserts into PERSON(pno, pname, address, email) values(1001, '千寻88', '朝阳区nb', 'dddddddddd')
+1622638668288|13|rollback|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl||
+1622639023301|12|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1011
+1622639023308|3|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|insert into PERSON(pno, pname, address, email) values(?, ?, ?, ?)|insert into PERSON(pno, pname, address, email) values(1001, '千寻88', '朝阳区nb', 'dddddddddd')
+1622639023313|3|commit|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl||
+1622639506492|4|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1011
+1622639506506|11|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|insert into PERSON(pno, pname, address, email) values(?, ?, ?, ?)|insert into PERSON(pno, pname, address, email) values(1001, '千寻88', '朝阳区nb', 'dddddddddd')
+1622642113299|3|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1011
+1622642113306|3|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|insert into PERSON(pno, pname, address, email) values(?, ?, ?, ?)|insert into PERSON(pno, pname, address, email) values(1001, '千寻88', '朝阳区nb', 'dddddddddd')
+1622642218764|13|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1011
+1622642218771|3|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|insert into PERSON(pno, pname, address, email) values(?, ?, ?, ?)|insert into PERSON(pno, pname, address, email) values(1001, '千寻88', '朝阳区nb', 'dddddddddd')
+1622642325123|7|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|delete from PERSON where pno = ?|delete from PERSON where pno = 1011
+1622642325157|31|statement|connection 1|url jdbc:oracle:thin:@192.168.124.204:1521:orcl|insert into PERSON(pno, pname, address, email) values(?, ?, ?, ?)|insert into PERSON(pno, pname, address, email) values(1001, '千寻88', '朝阳区nb', 'dddddddddd')

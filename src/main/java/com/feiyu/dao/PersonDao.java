@@ -11,4 +11,8 @@ public interface PersonDao {
     int updatePerson(Person person);
 
     Person selectPerson(int pno);
+
+    int deletePerson(int pno);
+
+    int insertPerson(Person person);
 }
